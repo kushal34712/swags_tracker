@@ -38,7 +38,7 @@ const TrackingCard: React.FC<Props> = ({ data }) => {
       <p>
         <strong className="font-medium text-gray-700">Tracking Link:</strong>{" "}
         <Link
-          href={data["Tracking Link"]}
+          href={data["Links"]}
           className="text-blue-500 hover:underline"
           target="_blank"
           rel="noreferrer"
