@@ -22,6 +22,9 @@ const TrackingCard: React.FC<Props> = ({ data }) => {
         {data["Reference No."]}
       </p>
       <p className="mb-2">
+        <strong className="font-medium text-gray-700">Origin: Bangalore</strong>
+      </p>
+      <p className="mb-2">
         <strong className="font-medium text-gray-700">Destination:</strong>{" "}
         {data.Destination}
       </p>
@@ -34,6 +37,12 @@ const TrackingCard: React.FC<Props> = ({ data }) => {
           <strong className="font-medium text-gray-700">Delivered too:</strong>{" "}
           {data["Delivered too"]}
         </p>
+      <p className="mb-2">
+        <strong className="font-medium text-gray-700">No. of pieces: 1 </strong>
+      </p>
+      <p className="mb-2">
+        <strong className="font-medium text-gray-700">Service Type: Lite</strong>
+      </p>
       )}
       <p>
         <strong className="font-medium text-gray-700">Tracking Link:</strong>{" "}
